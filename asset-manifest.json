@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/game-database-react-app/static/js/main.c156d6c6.chunk.js",
+    "main.js.map": "/game-database-react-app/static/js/main.c156d6c6.chunk.js.map",
+    "runtime-main.js": "/game-database-react-app/static/js/runtime-main.0c45ed09.js",
+    "runtime-main.js.map": "/game-database-react-app/static/js/runtime-main.0c45ed09.js.map",
+    "static/js/2.0aa63c01.chunk.js": "/game-database-react-app/static/js/2.0aa63c01.chunk.js",
+    "static/js/2.0aa63c01.chunk.js.map": "/game-database-react-app/static/js/2.0aa63c01.chunk.js.map",
+    "index.html": "/game-database-react-app/index.html",
+    "static/js/2.0aa63c01.chunk.js.LICENSE.txt": "/game-database-react-app/static/js/2.0aa63c01.chunk.js.LICENSE.txt",
+    "static/media/no_image.22d2aa4d.jpg": "/game-database-react-app/static/media/no_image.22d2aa4d.jpg",
+    "static/media/react-movie-logo.35f4d399.svg": "/game-database-react-app/static/media/react-movie-logo.35f4d399.svg",
+    "static/media/search-icon.bb4c697f.svg": "/game-database-react-app/static/media/search-icon.bb4c697f.svg",
+    "static/media/tmdb_logo.e7029961.svg": "/game-database-react-app/static/media/tmdb_logo.e7029961.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c45ed09.js",
+    "static/js/2.0aa63c01.chunk.js",
+    "static/js/main.c156d6c6.chunk.js"
+  ]
+}
