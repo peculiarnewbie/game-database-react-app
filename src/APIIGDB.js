@@ -3,8 +3,6 @@ import {
 } from './configIGDB';
 
 var myHeaders = new Headers();
-myHeaders.append("Client-ID", "x0muvk9gdif8w2reu3bkf5y0k1xrsu");
-myHeaders.append("Authorization", "Bearer s7qvf5pffac1nsuy9tioqc4ef5u224");
 myHeaders.append("Content-Type", "text/plain");
 
 var raw = "fields name, cover.image_id; sort rating desc";
