@@ -6,7 +6,7 @@ import { Wrapper, Content, Image, Text, Gap } from './Thumb.styles';
 const Thumb = ({ image, title, gameId, clickable }) => (
     <Wrapper>
         {clickable ? (
-            <Link to={`/${gameId}`}>
+            <Link to={`/game-database-react-app/${gameId}`}>
                 <Content>
                     <Image src={image} alt='movie-thumb' />
                 </Content>

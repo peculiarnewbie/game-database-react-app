@@ -1,8 +1,12 @@
 import {
   API_URL,
+  CLIENT_ID,
+  AUTHORIZATION,
 } from './configIGDB';
 
 var myHeaders = new Headers();
+myHeaders.append("Client-ID", `${CLIENT_ID}`);
+myHeaders.append("Authorization", `Bearer ${AUTHORIZATION}`);
 myHeaders.append("Content-Type", "text/plain");
 
 var raw = "fields name, cover.image_id; sort rating desc";

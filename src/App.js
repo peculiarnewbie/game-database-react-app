@@ -15,9 +15,9 @@ const App = () => (
     <Router>
       <Header />
       <Routes>
-        <Route path='/' element={<HomeGame />} />
-        <Route path='/:gameId' element={<Game />} /> 
-        <Route path='/*' element={<NotFound />} />
+        <Route path='/game-database-react-app' element={<HomeGame />} />
+        <Route path='/game-database-react-app/:gameId' element={<Game />} /> 
+        <Route path='/game-database-react-app/*' element={<NotFound />} />
       </Routes>
       <GlobalStyle />
     </Router>

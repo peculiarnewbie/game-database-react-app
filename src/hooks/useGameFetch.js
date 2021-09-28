@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import API from '../APIIGDB';
 
 export const useGameFetch = gameId => {
-    const [state, setStatee] = useState({});
+    const [state, setState] = useState({});
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(false);
 
@@ -14,7 +14,7 @@ export const useGameFetch = gameId => {
 
                 const game = await API.fetchFirstGame(gameId);
 
-                setStatee({
+                setState({
                     ...game
                 })
 
