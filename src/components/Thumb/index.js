@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom'
 // Styles
 import { Wrapper, Content, Image, Text, Gap } from './Thumb.styles';
 
-const Thumb = ({ image, title, gameId, clickable }) => (
+const Thumb = ({ image, title, gameId, gameLink, clickable }) => (
     <Wrapper>
         {clickable ? (
-            <Link to={`/game-database-react-app/${gameId}`}>
+            <a href={gameLink?.url} target="_blank">
                 <Content>
                     <Image src={image} alt='movie-thumb' />
                 </Content>
                 <Text>{title}</Text>
-            </Link>
+            </a>
         ) : (
             <Content>
             <Image src={image} alt='movie-thumb' />

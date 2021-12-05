@@ -47,10 +47,12 @@ function HomeGame(){
                                 : NoImage
                         }
                         gameId={game.id}
+                        gameLink={game.websites.find(obj => {return obj.category === 1})}
                         title={game.name}
+                    
                     />
                 ))}
-
+                {console.log(state.results)}
             </Grid>
             {loading && <Spinner />}
             {state.page < state.total_pages && !loading && (

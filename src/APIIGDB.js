@@ -21,8 +21,8 @@ var requestOptions = {
 const apiSettings = {
   fetchGames: async(searchTerm) => {
     const raw = searchTerm
-    ? `search "${searchTerm}"; fields name, cover.image_id; where category = 0 & rating_count > 5; limit 200;`
-    : `fields name, cover.image_id; sort aggregated_rating desc; where first_release_date > 1609434000 & rating_count > 1 & aggregated_rating_count > 2; limit 200;`
+    ? `search "${searchTerm}"; fields name, cover.image_id, websites.url, websites.category; where category = 0 & rating_count > 5; limit 200;`
+    : `fields name, cover.image_id, websites.url, websites.category; sort rating desc; where first_release_date > 1609434000 & rating_count > 1 & aggregated_rating_count > 2; limit 50;`
     requestOptions.body = raw
     return await (await fetch(API_URL, requestOptions)).json();
   },
