@@ -13,7 +13,7 @@ function Header(){
                 <a href="">
                     <LogoImg src={SiteLogo} alt='site-logo' />
                 </a>
-                <a href="peculiarnewbie.github.io" target="_blank">
+                <a href="https://peculiarnewbie.github.io/" target="_blank">
                     <TMDBLogoImg src={TMDBLogo} alt='tmdb-logo' />
                 </a>
             </Content>
