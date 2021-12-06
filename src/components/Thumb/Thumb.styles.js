@@ -46,13 +46,6 @@ export const Text = styled.div`
     margin: 0 10px;
 `;
 
-export const Description = styled.div`
-    position:absolute;
-    bottom:0px;
-    color: var(--black);
-    margin: 0 10px;
-`;
-
 export const Gap = styled.div`
     height:10px;
 `;
