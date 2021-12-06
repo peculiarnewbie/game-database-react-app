@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 
 import SiteLogo from '../../images/gamz-white.png';
-import TMDBLogo from '../../images/Logo.png';
+import TMDBLogo from '../../images/Logo-white.png';
 
 import { Wrapper, Content, LogoImg, TMDBLogoImg } from './Header.styles';
 
@@ -10,10 +10,12 @@ function Header(){
     return(
         <Wrapper>
             <Content>
-                <a href="" target="_blank">
+                <a href="">
                     <LogoImg src={SiteLogo} alt='site-logo' />
                 </a>
-                <TMDBLogoImg src={TMDBLogo} alt='tmdb-logo' />
+                <a href="peculiarnewbie.github.io" target="_blank">
+                    <TMDBLogoImg src={TMDBLogo} alt='tmdb-logo' />
+                </a>
             </Content>
         </Wrapper>
     );
