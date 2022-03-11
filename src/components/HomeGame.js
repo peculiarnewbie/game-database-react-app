@@ -36,7 +36,7 @@ function HomeGame(){
             ) : null
             }
             <SearchBar setSearchTerm={setSearchTerm} />
-            <Grid header={searchTerm ? 'Search Result' : 'Highest Rated 2021 Games'}>
+            <Grid header={searchTerm ? 'Search Result' : 'Highest Rated 2022 Games'}>
                 {state.results.map(game => (
                     <Thumb
                         key={game.id}
@@ -47,7 +47,7 @@ function HomeGame(){
                                 : NoImage
                         }
                         gameId={game.id}
-                        gameLink={game.websites.find(obj => {return obj.category === 1})}
+                        gameLink={game.websites?.find(obj => {return obj.category === 1})}
                         title={game.name}
                     
                     />
