@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/game-database-react-app/static/js/main.d5200022.chunk.js",
-    "main.js.map": "/game-database-react-app/static/js/main.d5200022.chunk.js.map",
+    "main.js": "/game-database-react-app/static/js/main.693c0071.chunk.js",
+    "main.js.map": "/game-database-react-app/static/js/main.693c0071.chunk.js.map",
     "runtime-main.js": "/game-database-react-app/static/js/runtime-main.586f22b8.js",
     "runtime-main.js.map": "/game-database-react-app/static/js/runtime-main.586f22b8.js.map",
-    "static/js/2.d68652bc.chunk.js": "/game-database-react-app/static/js/2.d68652bc.chunk.js",
-    "static/js/2.d68652bc.chunk.js.map": "/game-database-react-app/static/js/2.d68652bc.chunk.js.map",
+    "static/js/2.d15c60ba.chunk.js": "/game-database-react-app/static/js/2.d15c60ba.chunk.js",
+    "static/js/2.d15c60ba.chunk.js.map": "/game-database-react-app/static/js/2.d15c60ba.chunk.js.map",
     "index.html": "/game-database-react-app/index.html",
-    "static/js/2.d68652bc.chunk.js.LICENSE.txt": "/game-database-react-app/static/js/2.d68652bc.chunk.js.LICENSE.txt",
+    "static/js/2.d15c60ba.chunk.js.LICENSE.txt": "/game-database-react-app/static/js/2.d15c60ba.chunk.js.LICENSE.txt",
     "static/media/Logo-white.58ec3dfb.png": "/game-database-react-app/static/media/Logo-white.58ec3dfb.png",
     "static/media/gamz-white.b6196241.png": "/game-database-react-app/static/media/gamz-white.b6196241.png",
     "static/media/no_image.22d2aa4d.jpg": "/game-database-react-app/static/media/no_image.22d2aa4d.jpg",
@@ -15,7 +15,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.586f22b8.js",
-    "static/js/2.d68652bc.chunk.js",
-    "static/js/main.d5200022.chunk.js"
+    "static/js/2.d15c60ba.chunk.js",
+    "static/js/main.693c0071.chunk.js"
   ]
 }
